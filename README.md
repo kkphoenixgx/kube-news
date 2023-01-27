@@ -1,15 +1,3 @@
-# Projeto kube-news
+# Terraform Repository DevOps-de-elite
 
-### Objetivo
-O projeto Kube-news é uma aplicação escrita em NodeJS e tem como objetivo ser uma aplicação de exemplo pra trabalhar com o uso de containers.
-
-### Configuração
-Pra configurar a aplicação, é preciso ter um banco de dados Postgre e pra definir o acesso ao banco, configure as variáveis de ambiente abaixo:
-
-DB_DATABASE => Nome do banco de dados que vai ser usado.
-
-DB_USERNAME => Usuário do banco de dados.
-
-DB_PASSWORD => Senha do usuário do banco de dados.
-
-DB_HOST => Endereço do banco de dados.
+Eu não criei a conta da digital Ocean porque eu precisaria do cartão também correria risco de acabar pagando alguma coisa... E por enquanto eu acho que não tá na hora de investir em um cloud provider dessa forma, contudo, os arquivos estão todos aí e pode checar se eu sei o conteúdo no [repositório de notas](https://github.com/kkphoenixgx/Programming-Classes/tree/main/Bootcamps/BootcampDevops-de-elite/Aula) do bootcamp, tá tudo lá...
