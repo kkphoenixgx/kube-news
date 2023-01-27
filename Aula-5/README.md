@@ -1,0 +1,3 @@
+# Terraform Repository DevOps-de-elite
+
+Eu não criei a conta da digital Ocean porque eu precisaria do cartão também correria risco de acabar pagando alguma coisa... E por enquanto eu acho que não tá na hora de investir em um cloud provider dessa forma, contudo, os arquivos estão todos aí e pode checar se eu sei o conteúdo no [repositório de notas](https://github.com/kkphoenixgx/Programming-Classes/tree/main/Bootcamps/BootcampDevops-de-elite/Aula) do bootcamp, tá tudo lá...
