@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: kubeNewsContainersPod
+  labels:
+    nomeDaLabel: kubeNewsLabel
+spec:
+containers:
+- name: kubeNewsContainersPod
+  image: kkphoenixvs/kubeNews:v1
+  ports:
+  - containerPort: 80

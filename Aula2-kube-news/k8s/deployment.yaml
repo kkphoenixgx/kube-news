@@ -50,7 +50,7 @@ spec:
     spec:
       containers:
         - name: web
-          image: kkphoenixvs/kubeNews:{{TAG}}
+          image: kkphoenixvs/kubeNews:v1
           ports:
           - containerPort: 8080
           env:
@@ -62,7 +62,6 @@ spec:
             value: "Pg#123"
           - name: DB_HOST
             value: "postgre"
----
 ---
 apiVersion: v1
 kind: Service

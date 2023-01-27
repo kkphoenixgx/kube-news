@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: ReplicaSet
+metadata:
+  name: kubeNewsReplicaSet
+spec:
+  selector:
+    matchLabels:
+      kubeNewsLabel: kubeNewsReplicaSet
+  template:
+    metadata:
+      labels:
+        kubeNewsLabel: kubeNewsReplicaSet
+    spec:
+      replicas: 3
+      containers:
+      - name: kubeNews
+      image: kubeNewsImage
+      ports:
+      - containerPort: 80
